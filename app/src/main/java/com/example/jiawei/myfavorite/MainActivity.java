@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             switch (msg.what) {
                 case SHOW_CURRENCY:
 
-                    sb.append("Current Canadian Dollar Currency: ");
+                    sb.append("Current Canadian Dollar Currency is: ");
                     try{
                         double currency;
                      //   JSONArray jsonArray = new JSONArray((String) msg.obj);
